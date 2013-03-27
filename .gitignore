@@ -1,0 +1,10 @@
+# NetBeans Dirs #
+/nbproject/private/
+
+# Mac OSX Files #
+*.DS_Store
+ 
+# Package Files #
+*.jar
+*.war
+*.ear
