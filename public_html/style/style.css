@@ -69,12 +69,21 @@ form input{
   *zoom: 1;
 }
 
-.form-horizontal input[type="text"],.form-horizontal input[type="password"], .form-horizontal textarea{
+.form-horizontal input[type="date"],
+.form-horizontal input[type="time"],
+.form-horizontal input[type="text"],
+.form-horizontal input[type="email"],
+.form-horizontal input[type="password"], 
+.form-horizontal textarea{
     width:90%;
 }
 
 .form-horizontal button{
 /*    font-size:12px;*/
+}
+
+.form-horizontal .control-group {
+    padding-right: 5px;
 }
 
 .form-horizontal .control-label {
@@ -91,7 +100,8 @@ form input{
 }
 
 .form-horizontal .form-actions {
-    padding-left: 100px;
+    padding-left:  100px;
+    padding-right: 0px;
 }
 
 .form-actions {
@@ -2562,6 +2572,8 @@ input[type="datetime-local"] {
 }
 
 input[type="datetime-local"],
+input[type="date"],
+input[type="time"],
 input[type="text"],
 input[type="email"],
 textarea {

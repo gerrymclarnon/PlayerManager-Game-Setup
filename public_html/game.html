@@ -76,14 +76,19 @@
                      <div class="logreg-page">
                         <h3>Organise a game</h3>                        
                         <hr />
-                                    <div class="form-horizontal">
-                                      <!-- Login form (not working)-->
-                                      <form class="form">
+                                      <form class="form form-horizontal">
                                           <!-- Kick-off -->
                                           <div class="control-group">
-                                            <label class="control-label" for="name">kick-off</label>
+                                            <label class="control-label" for="date">date</label>
                                             <div class="controls">
-                                                <input type="datetime-local" class="input-large" id="kick-off" required value="2013-03-21T15:00" min="2013-03-21T15:00">
+                                                    <input type="date" class="input-large" id="date" required value="2013-03-21" min="2013-03-21">
+                                            </div>
+                                          </div>
+                                          <!-- Kick-off -->
+                                          <div class="control-group">
+                                            <label class="control-label" for="kick-off">kick-off</label>
+                                            <div class="controls">
+                                                    <input type="time" class="input-large" id="kick-off" required value="15:00">
                                             </div>
                                           </div>
                                           <!-- Venue -->
@@ -123,7 +128,6 @@
                                           </div>
                                       </form>
                                       <hr />
-                                    </div>                           
                      </div>
                   </div>
                </div>
